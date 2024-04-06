@@ -84,8 +84,6 @@ tools:context=".MainActivity">
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -341,8 +339,8 @@ tools:context=".MainActivity">
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:src="@drawable/electric_vehicle_icon"
-                            android:scaleType="centerCrop"/>
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/electric_vehicle_icon" />
 
                         <TextView
                             android:layout_width="wrap_content"
