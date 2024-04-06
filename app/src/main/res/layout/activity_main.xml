@@ -236,7 +236,7 @@ tools:context=".MainActivity">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Feed"
+                            android:text="Your feed"
                             android:textSize="14sp"
                             android:textColor="@android:color/black"
                             android:layout_marginTop="8dp"/>
