@@ -28,7 +28,7 @@ tools:context=".MainActivity">
                 android:layout_weight="1"
                 android:paddingLeft="20dp"
                 android:paddingTop="30dp"
-                tools:srcCompat="@drawable/sp_logo" />
+                android:src="@drawable/sp_logo" />
 
             <LinearLayout
                 android:layout_width="74dp"
@@ -427,7 +427,7 @@ tools:context=".MainActivity">
                     android:id="@+id/imageView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@drawable/chart"
+                    android:src="@drawable/chart"
                     android:paddingBottom="10dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
