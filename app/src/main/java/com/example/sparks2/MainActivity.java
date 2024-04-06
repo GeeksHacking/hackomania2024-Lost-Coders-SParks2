@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView evIcon = findViewById(R.id.imageView7);
+        ImageView evIcon = findViewById(R.id.evImage);
         evIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
